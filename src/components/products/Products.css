@@ -1,0 +1,38 @@
+.products-container {
+    padding: 50px 100px;
+}
+.list-group-item{
+    border: none !important;
+    border-bottom: 1px solid rgb(173, 172, 172) !important;
+    color: black !important;
+    background-color: rgb(231, 231, 231) !important;
+}
+.side-menu{
+    height: auto;
+    background-color: rgb(231, 231, 231);
+}
+.fruit-con{
+    height: auto;
+    margin: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.prod{
+    height:30em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px){
+    .side-menu{
+        display: none;
+    }
+    .col-8, .fruit-con{
+        width: 100%;
+    }
+    .fruit-con{
+        display: flex;
+        flex-direction: row;
+    }
+    .fruit-con p,div{
+        width: 300px;
+    }
+}

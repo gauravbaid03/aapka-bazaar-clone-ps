@@ -1,0 +1,30 @@
+
+.register-container {
+    display: flex;
+    padding: 50px 200px;
+}
+.signup-heading, .signup-form {
+    width: auto;
+}
+.signup-form{
+    margin-left: 300px;
+    width: 70%;
+}
+.signup-form input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.signup-form button{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 600px){
+    .register-container{
+        display: block;
+    }
+}

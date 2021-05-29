@@ -1,0 +1,14 @@
+
+/* AppFooter */
+
+.app-footer {
+    margin: 0;
+    padding: 0;
+}
+.app-footer p{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    padding-top: 18px;
+    background-color: rgb(217, 217, 217);
+}
